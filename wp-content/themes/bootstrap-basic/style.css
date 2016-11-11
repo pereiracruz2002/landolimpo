@@ -1,0 +1,303 @@
+/*
+Theme Name: Bootstrap Basic
+Theme URI: http://rundiz.com
+Author: Vee Winch
+Author URI: 
+Description: Bootstrap v.3 basic theme for developers to build their new theme very fast and easy. You can support theme author by <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9HQE4GVV4KTZE" target="donate">donate</a>. To follow what was changed, please look for <a href="https://github.com/Rundiz/bootstrap-basic" target="commits">commits</a> of this theme at Github.
+Version: 1.0.11
+License: MIT
+License URI: http://opensource.org/licenses/MIT
+Text Domain: bootstrap-basic
+Domain Path: /languages/
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, front-page-post-form, post-formats, threaded-comments, translation-ready
+
+This theme built with Twitter Bootstrap v.3. It is basic theme with basic style for build new theme with Bootstrap.
+
+*/
+
+
+/*
+Required WordPress CSS
+*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.bypostauthor {
+}
+
+
+/* WordPress gallery */
+.gallery-caption {
+}
+.gallery {
+	margin-bottom: 1.6em;
+}
+.gallery-item {
+	display: inline-block;
+	padding: 1.79104477%;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+.gallery-icon img {
+	margin: 0 auto;
+}
+.gallery-caption {
+	color: #707070;
+	color: rgba(51, 51, 51, 0.7);
+	display: block;
+	font-family: "Noto Sans", sans-serif;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.5;
+	padding: 0.5em 0;
+}
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+	display: none;
+}
+
+
+.sticky {
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 1.2% auto 0;
+	max-width: 98%;
+}
+.wp-caption-text {
+	text-align: center;
+}
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar. */
+}
+
+#banner .hero-img {
+	background-size: cover;
+	background: url("img/bannerD4f.png");
+    overflow: hidden;
+    background-position: top center;
+    padding: 11px 0 0 0;
+}
+
+#banner h2{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:30px;
+	margin-bottom: 52px;
+}
+
+#banner #blocoMsg{
+	background-color:#D5154B;
+	color:#fff;
+	padding:15px 0 ;
+}
+
+#banner #blocoMsg h3{
+	margin:10px 0;
+}
+
+.btn-grey{
+	background-color:#414141;
+	border-color:#414141;
+	color:#FFF;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	text-decoration: underline;
+	background-color: #FFF;
+}
+.home #principal, .page #principal, .single #principal{
+background: rgba(221,233,58,1);
+background: -moz-linear-gradient(top, rgba(221,233,58,1) 0%, rgba(253,255,224,1) 0%, rgba(237,232,147,1) 21%, rgba(230,230,188,1) 51%, rgba(229,228,235,1) 85%, rgba(229,228,245,1) 92%, rgba(187,184,227,1) 99%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(221,233,58,1)), color-stop(0%, rgba(253,255,224,1)), color-stop(21%, rgba(237,232,147,1)), color-stop(51%, rgba(230,230,188,1)), color-stop(85%, rgba(229,228,235,1)), color-stop(92%, rgba(229,228,245,1)), color-stop(99%, rgba(187,184,227,1)));
+background: -webkit-linear-gradient(top, rgba(221,233,58,1) 0%, rgba(253,255,224,1) 0%, rgba(237,232,147,1) 21%, rgba(230,230,188,1) 51%, rgba(229,228,235,1) 85%, rgba(229,228,245,1) 92%, rgba(187,184,227,1) 99%);
+background: -o-linear-gradient(top, rgba(221,233,58,1) 0%, rgba(253,255,224,1) 0%, rgba(237,232,147,1) 21%, rgba(230,230,188,1) 51%, rgba(229,228,235,1) 85%, rgba(229,228,245,1) 92%, rgba(187,184,227,1) 99%);
+background: -ms-linear-gradient(top, rgba(221,233,58,1) 0%, rgba(253,255,224,1) 0%, rgba(237,232,147,1) 21%, rgba(230,230,188,1) 51%, rgba(229,228,235,1) 85%, rgba(229,228,245,1) 92%, rgba(187,184,227,1) 99%);
+background: linear-gradient(to bottom, rgba(221,233,58,1) 0%, rgba(253,255,224,1) 0%, rgba(237,232,147,1) 21%, rgba(230,230,188,1) 51%, rgba(229,228,235,1) 85%, rgba(229,228,245,1) 92%, rgba(187,184,227,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dde93a', endColorstr='#bbb8e3', GradientType=0 );
+padding-top:80px;
+
+}
+
+#main-column .post, #main-column .page{
+	border:0;
+}
+
+.site-title a img{
+    left: 1px;
+    position: absolute;
+    top: -2px;
+}
+
+.navbar-default{
+	border-color:#FFF;
+	background-color:#FFF;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-weight: bold;
+}
+
+.entry-content img{
+	border: 2px solid #FFF;
+	-webkit-box-shadow: 1px 7px 31px 14px rgba(0, 0, 0, 0.50);
+	-moz-box-shadow:    1px 7px 31px 14px rgba(0, 0, 0, 0.50);
+	box-shadow:         1px 7px 31px 14px rgba(0, 0, 0, 0.50);
+
+
+}
+
+.entry-content p{
+	padding-top:30px;
+	color:#414141;
+	font-weight: bold;
+}
+
+.entry-title a { 
+	display: block;
+	font-weight: bold;
+	font-size: 22px;
+	color:#414141;
+	padding-bottom: 40px;
+}
+
+.entry-content p a.more-link{
+	text-transform: uppercase;
+	color:#414141;
+	font-size:15px;
+}
+
+section#saiba{
+	background-size: cover;
+	background: url("img/chef.png") no-repeat;
+    overflow: hidden;
+    background-position: top center;
+    padding: 356px 0 565px 0;
+}
+
+section#saiba h2{
+	padding-top:106px;
+	padding-bottom:130px;
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+section#saiba a{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+blockquote{ border-left:none;}
+
+#site-footer{
+	background-color: #414141;
+	color:#fff;
+	border-top: 0;
+	padding-top:100px;
+	font-size: 18px;
+	text-align: left;
+	line-height: 36px;
+
+}
+
+#site-footer ul{
+	list-style-type: none;
+	border-right: 3px solid #fff;
+}
+#site-footer ul li{display: block;}
+#site-footer a{color:#FFF;}
+
+#logoRodape{padding:20px 20px;}
+
+.modal-body .btn-grey{padding:20px 0;}
+
+.modal-body .danger{ color:#d44950;}
+
+.single .entry-content img{
+	float: left;
+    margin: 0 20px 10px 0;
+}
+
+@media all and (min-width: 240px) and (max-width: 700px){
+	section#saiba #saibaMobile {
+		display:block;
+	}
+
+	section#saiba .show {
+		display:none;
+	}
+
+}
+
+
